@@ -14,7 +14,7 @@ jobs:
 
     - name: Install dependecies
       run: npm install
-      working-directory: ./bootsrap
+      working-directory: ./bootstrap
     
     - name: Lint code
       run: npm run eslint:check
