@@ -49,15 +49,15 @@ class Calculator {
    * @param {Float} b
    * @return {Float} a raised to the power of b
    */
-//   power(a, b) {
-//     if (b < 0) {
-//       return 1 / a * this.power(a, b + 1);
-//     } else if (b > 0) {
-//       return a * this.power(a, b - 1);
-//     } else {
-//       return 1;
-//     }
-//   }
-// }
+  // power(a, b) {
+  //   if (b < 0) {
+  //     return 1 / a * this.power(a, b + 1);
+  //   } else if (b > 0) {
+  //     return a * this.power(a, b - 1);
+  //   } else {
+  //     return 1;
+  //   }
+  // }
+}
 
 module.exports = {Calculator};
