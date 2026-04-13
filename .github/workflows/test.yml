@@ -3,6 +3,10 @@ on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./bootstrap
+
     steps:
     - name: Run checkout code
       uses: actions/checkout@v4
@@ -14,7 +18,7 @@ jobs:
 
     - name: Install dependecies
       run: npm install
-      working-directory: ./bootstrap
+      
     
     - name: Lint code
       run: npm run eslint:check
